@@ -1,21 +1,50 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta lang="en">
-        <title>Odin Recipes</title>
-    </head>
 
-    <body>
-        <h1>Odin Recipes</h1>
-        <hr>
+<head>
+    <meta lang="en">
+    <title>Odin Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-        <ul>
-            <li><a href="./recipes/omelette.html">Omelette</a></li>
-            <li><a href="./recipes/spaghetticarbonara.html">Spaghetti Carbonara</a></li>
-            <li><a href="./recipes/classicpancakes.html">Classic Pancakes</a></li>
-        </ul>
+<body>
 
-    </body>
+    <!-- Nav bar -->
+    <header class="navbar">
+        <a href="./index.html">Odin Recipes</a>
+
+        <p class="subnavbar">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+        </p>
+    </header>
+
+    <!-- Content -->
+    <main>
+
+        <table>
+            <tr>
+                <td>
+                    <a href="./recipes/omelette.html">Omelette</a>
+                    <img class="img-recipe-preview" src="./recipes/images/omelette.jpg" alt="Image of omelette">
+                </td>
+                <td>
+                    <a href="./recipes/spaghetticarbonara.html">Spaghetti Carbonara</a>
+                    <img class="img-recipe-preview" src="./recipes/images/spaghetti-carbonara.jpg"
+                        alt="Image of spaghetti carbonara">
+                </td>
+                <td>
+                    <a href="./recipes/classicpancakes.html">Classic Pancakes</a>
+                    <img class="img-recipe-preview" src="./recipes/images/pancakes.webp" alt="Image of pancakes">
+                </td>
+            </tr>
+        </table>
+
+        <!-- Makes page longer to test scrolling nav bar -->
+        <div style="height: 1000px;"></div>
+    </main>
+
+</body>
 
 </html>

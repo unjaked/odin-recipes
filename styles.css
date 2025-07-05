@@ -1,0 +1,85 @@
+/* All */
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; /* Set html margin to 0 so nav bar is full size of page */
+}
+
+/* Nav bar */
+.navbar {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+
+    background-color: rgb(161, 28, 28);
+    font-size: 36px;
+    font-weight: bold;
+    box-shadow: 0 3px 20px #00000033;
+}
+
+/* Subnav Bar */
+.subnavbar {
+    margin: 0;
+    margin-top: 20px;
+    padding: 10px;
+    word-spacing: 50px;
+
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(152, 152, 152);
+}
+
+/* Nav bar link */
+.navbar a {
+    color: white;
+    text-decoration-line: none;
+}
+
+/* Page content */
+main {
+    padding: 8px; /* seperation from edge of page for small screens */
+    padding-top: 128px; /* sepearation from nav bar */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Recipe image preview */
+.img-recipe-preview {
+    max-height: 300px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    border-radius: 10px;
+    box-shadow: 0 3px 20px #0000004F;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Home page nav table */
+table {
+    margin-top: 24px;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 20px;
+    word-wrap: break-word;
+  }
+
+td .img-recipe-preview {
+    max-height: 100px;
+    max-width: 100%;
+    margin-top: 8px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px #0000004F;
+}
+
